@@ -1,0 +1,50 @@
+{
+    "name": "sdclogexplorer",
+    "version": "0.8.1",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "serve": "webpack-dev-server",
+        "build": "webpack --env.production",
+        "dev": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Kevin Kei Tuncer",
+    "license": "MIT",
+    "dependencies": {
+        "eos-encrypt": "^1.0.2",
+        "eosjs": "^22.1.0",
+        "file-saver": "^2.0.5",
+        "jdenticon": "^3.1.0",
+        "openpgp": "^4.10.10",
+        "vue": "^3.0.11",
+        "vue-router": "^4.0.6",
+        "vuex": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.37",
+        "@babel/core": "^7.13.15",
+        "@babel/plugin-transform-runtime": "^7.13.15",
+        "@babel/preset-env": "^7.13.15",
+        "@babel/preset-typescript": "^7.13.0",
+        "@types/openpgp": "^4.4.15",
+        "@vue/compiler-sfc": "^3.0.11",
+        "babel-loader": "^8.2.2",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^5.2.1",
+        "dotenv": "^10.0.0",
+        "html-webpack-plugin": "^4.5.2",
+        "mini-css-extract-plugin": "^1.4.1",
+        "style-loader": "^2.0.0",
+        "ts-loader": "^8.1.0",
+        "typescript": "^4.2.4",
+        "vue-loader": "^16.2.0",
+        "webpack": "^4.46.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.2",
+        "webpackbar": "^4.0.0"
+    },
+    "peerDependencies": {
+        "webpack": "^4.1.0 || ^5.0.0-0"
+    }
+}
